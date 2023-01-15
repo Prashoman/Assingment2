@@ -115,7 +115,7 @@ nav ul li a{
     margin-left: 40px;
 
 }
-features-info, .heading{
+.features-info, .heading{
     margin-bottom: 24px;
     font-weight: 500;
     font-size: 35px;
@@ -142,7 +142,7 @@ features-info, .heading{
 }
 .enjoy-info{
     width: 588.03px;
-    height: 983px;
+    height: 600px;
 }
 
 .enjoy-header h3{
@@ -172,21 +172,137 @@ features-info, .heading{
 .enjoy-item{
     
     margin-top: 10px;
-    padding: 5px 15px;
+    padding: 5px 18px;
     width: 500px;
-    height: 120px;
+    height: 110px;
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
 }
 
 .enjoy-img img{
+    margin-left: 30px;
     width: 500px;
-    height: 400px;
+    height: auto;
+    position: relative;
+}
+.ep-img{
+    margin-top: 20px;
+}
+.experience-btn{
+   position: absolute;
+    height: 100px;
+    margin-top: -60px;
+    border: none;
+    background-color: #FF900E;
+    padding: 15px 25px;
+    color: #ffffff;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.experience-btn p{
+    font-size: 18px;
+}
+
+/* some fact start */
+.some-facts{
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.fact-tittle{
+    font-weight: 700;
+    font-size: 30px;
+}
+.fact-description{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+color: #727272;
+}
+.fact-item{
+    justify-content: space-around;
+    margin-top: 50px;
+    display: flex;
+}
+.fact-items{
+    width: 150px;
+    height: 70px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+   padding: 40px 10px;
+   transition: 1s;
+}
+.fact-items:hover{
+    transform: rotate(90deg);
+}
+.fact-items, h2, h5{
+margin-top: 5px;
+}
+
+/* fact end */
+
+
+/* responser start */
+.sponser-container{
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.sponser-items{
+   text-align: center;
+}
+.spomser-item h2{
+    font-weight: 700;
+    font-size: 35px;
+    margin: 10px 0;
+}
+.spomser-item p{
+    font-weight: 400;
+   font-size: 16px;
+    color: #727272;
+    margin: 10px 0;
+}
+.sponser-companys{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.sponser-info{
+    margin-left: 40px;
+}
+.sponser-info img{
+    width: 150px;
+    height: 40px;
+    
+}
+
+/* footer items */
+
+.footer-container{
+    margin: 70px 100px;
+    
+}
+.footer-items{
+    padding: 30px 10px;
+    text-align: center;
+    background-color: #FFF4E7;
+}
+.footer-items p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
 }
 
 .bloc{
     display: none;
+   
 }
 /* Responsive query */
 
@@ -270,13 +386,13 @@ features-info, .heading{
 
 /* feature section */
 
-.feature-section, .enjoy-features{
-   
-}
+
 
 .features-container{
+    
     display: flex;
     flex-direction: column;
+    align-content: flex-start;
     
 }
 .fetures-imgs{
@@ -286,12 +402,14 @@ features-info, .heading{
     
 }
 .fetures-imgs img{
-    width: 100%;
-    height: 100%;
-   
+    width: 80%; 
     border-radius: 8px;
 }
-
+.features-info, .heading{
+    
+    font-weight: 500;
+    font-size: 20px;
+}
 
 .heading-gray{
     color: #727272;
@@ -301,9 +419,79 @@ features-info, .heading{
 }
 .features-info p{
     color: #727272;
-    margin-left: 60px;
+    
     
 }
+
+
+/* enjoy section */
+
+
+.enjoy-feature{
+    display: flex;
+    flex-direction: column;
+}
+.enjoy-info{
+    width: 100%;
+    
+}
+
+.enjoy-header h3{
+    padding: 5px;
+    font-weight: 900;
+    font-size: 40px;
+    
+    overflow: hidden;
+    position: relative;
+
+}
+.enjoy-header h3::after{
+    position: absolute;
+    content: "";
+    top: 10px;
+    left: 0;
+    
+    height: 100%;
+    
+    border-left: 4px solid #FF900E;
+    
+}
+.enjoy-items{
+    display: flex;
+    flex-direction: column;
+}
+.enjoy-item{
+    
+    margin-top: 10px;
+    padding: 5px 18px;
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.enjoy-img img{
+   
+    max-width: 100%;
+    height: auto;
+    
+}
+.ep-img{
+    margin-top: 250px;
+}
+.experience-btn{
+   margin-top: 20px;
+    border: none;
+    background-color: #FF900E;
+    color: #ffffff;
+    border-radius: 8px;
+    
+}
+.experience-btn p{
+    font-size: 10px;
+}
+
 
     
   }
