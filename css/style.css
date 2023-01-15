@@ -405,10 +405,8 @@ margin-top: 5px;
     width: 80%; 
     border-radius: 8px;
 }
-.features-info, .heading{
-    
-    font-weight: 500;
-    font-size: 20px;
+.features-info {
+    width: auto;
 }
 
 .heading-gray{
@@ -419,6 +417,7 @@ margin-top: 5px;
 }
 .features-info p{
     color: #727272;
+    font-size: 12px;
     
     
 }
@@ -478,6 +477,7 @@ margin-top: 5px;
     
 }
 .ep-img{
+    margin-left: -20px;
     margin-top: 250px;
 }
 .experience-btn{
@@ -492,6 +492,103 @@ margin-top: 5px;
     font-size: 10px;
 }
 
+/* some fact  */
+.some-facts{
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.fact-tittle{
+    font-weight: 700;
+    font-size: 30px;
+}
+.fact-description{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+color: #727272;
+}
+.fact-item{
+   
+    display: flex;
+    flex-direction: column;
+    
+}
+.fact-items{
+    
+    width: 80%;
+    height: auto;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+   padding: 40px 10px;
+   transition: 1s;
+}
+.fact-items:hover{
+    transform: rotate(90deg);
+}
+.fact-items, h2, h5{
+margin-top: 5px;
+}
+
+
+/* responser start */
+.sponser-container{
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.sponser-items{
+   text-align: center;
+}
+.spomser-item h2{
+    font-weight: 700;
+    font-size: 35px;
+    margin: 10px 0;
+}
+.spomser-item p{
+    font-weight: 400;
+   font-size: 16px;
+    color: #727272;
+    margin: 10px 0;
+}
+.sponser-companys{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sponser-info{
+    margin-left: 40px;
+}
+.sponser-info img{
+    
+    margin-top: 40px;
+    width: 60%;
+    height: auto
+    
+}
+
+/* footer section */
+.footer-container{
+    width: 100%;
+    margin: 0px 0px;
+    
+}
+.footer-items{
+    padding: 30px 10px;
+    text-align: center;
+    background-color: #FFF4E7;
+}
+.footer-items p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
 
     
   }
