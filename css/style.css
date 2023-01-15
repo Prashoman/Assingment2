@@ -300,9 +300,47 @@ margin-top: 5px;
     line-height: 23px;
 }
 
-.bloc{
-    display: none;
-   
+/* Contact us section */
+
+.contact-items p{
+   margin-top: 10px;
+   font-size: 20px;
+   color: #727272;
+}
+
+.contact-section{
+   margin-top: 40px;
+}
+.contct-header{
+    text-align: center;
+    font-weight: 900;
+    font-size: 35px;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-items{
+    margin-top: 20px;
+    padding: auto;
+}
+.contact-items label{
+    
+    font-size: 20px;
+}
+.contact-items input{
+    font-size: 20px;
+    margin-top: 5px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid #FF900E;
+    padding: 12px 10px ;
+    height:20px;
+    
+}
+input:focus{
+    outline: none;
 }
 /* Responsive query */
 
@@ -529,7 +567,7 @@ color: #727272;
    transition: 1s;
 }
 .fact-items:hover{
-    transform: rotate(90deg);
+    transform: rotate(60deg);
 }
 .fact-items, h2, h5{
 margin-top: 5px;
